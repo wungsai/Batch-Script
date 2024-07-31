@@ -9,6 +9,7 @@ setlocal EnableDelayedExpansion
 if !ext!==.txt ( echo skip
 ) else (set "new=!name:~0,-4!
 echo !new!
+ren "%%f" "!new!"
 )
 endlocal
 )

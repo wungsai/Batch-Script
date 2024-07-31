@@ -1,17 +1,9 @@
 @echo off
 echo ===Rename=====
 
-for %%f in (*.*) do (
-set "name=%%~nxf"
-set "ext=%%~xf"
-setlocal EnableDelayedExpansion
-::echo !name!
-if !ext!==.txt ( echo skip
-) else (set "new=!name:~0,-4!
-echo !new!
-ren "%%f" "!new!"
-)
-endlocal
+for /R %%f in (*.!ut) do (
+ren "%%f" "%%~nf"
 )
 
 pause
+

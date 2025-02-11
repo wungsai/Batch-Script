@@ -84,11 +84,21 @@ REM check value is empty
 if "!value!" == "" (
     ECHO value is empty)
 
-IF [!V!] == [] ECHO VALUE IS EMPTY []
+IF [!V!] == [] ECHO VALUE IS EMPTY []+
 
+::using defined to check variable has value or not
 REM CHECK VALUE IS NULL
 IF NOT DEFINED V (
-     ECHO VALUE IS NULL)
+     ECHO VALUE IS NULL
+     )
+
+if defined test (
+    echo test is defined
+) else (
+    echo xxxxx test is not defined
+)
+
+
 
 REM CHECK EXIST FILE
 IF EXIST "compare operator.bat" (

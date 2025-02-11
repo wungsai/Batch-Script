@@ -1,0 +1,12 @@
+C:\Code\Batch Script\files functions\move file to network folder\\CHANGE
+C:\Code\Batch Script\files functions\move file to network folder\\CLOSE
+C:\Code\Batch Script\files functions\move file to network folder\\MAINTENANCE
+C:\Code\Batch Script\files functions\move file to network folder\\OPEN
+C:\Code\Batch Script\files functions\move file to network folder\\CHANGE
+C:\Code\Batch Script\files functions\move file to network folder\\CLOSE
+C:\Code\Batch Script\files functions\move file to network folder\\MAINTENANCE
+C:\Code\Batch Script\files functions\move file to network folder\\OPEN
+C:\Code\Batch Script\files functions\move file to network folder\\CHANGE
+C:\Code\Batch Script\files functions\move file to network folder\\CLOSE
+C:\Code\Batch Script\files functions\move file to network folder\\MAINTENANCE
+C:\Code\Batch Script\files functions\move file to network folder\\OPEN

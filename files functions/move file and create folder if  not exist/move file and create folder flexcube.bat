@@ -66,7 +66,7 @@ set "units[192]=192 NAVIENGKHAM Service UNIT"
 set "units[251]=251 Saravanh Service Unit"
 
 
-@REM echo --------list pdf file--------
+@REM ::Start Moving File here
 for %%f in (*.pdf) do (
     @REM echo -------check-----
     set "file=%%~f"
@@ -102,7 +102,7 @@ set "destinationPath=!actionName!\!branchName!"
     )
 ::---------Move file function and save to log file------------
 echo ====move file :^"!file!^" --to-- ^"!destinationPath!^">>move_log.txt
-MOVE /Y "!file!" "!destinationPath!\!file!" >>move_log.txt
+MOVE /Y "!file!" "!destinationPath!\!file!" >>move_log.txt 2>&1
 )
 pause
 

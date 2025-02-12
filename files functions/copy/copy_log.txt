@@ -1,0 +1,67 @@
+0 File(s)
+NEW\new file.txt
+NEW\sub\test.txt
+2 File(s)
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt
+C:\Code\Batch Script\files functions\copy\NEW\sub\test.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\sub\test.txt
+2 File(s)
+Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Yes/No/All)? v
+Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Yes/No/All)? c
+Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Yes/No/All)? v
+Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Yes/No/All)? n
+Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\sub\test.txt (Yes/No/All)? n
+0 File(s) copied
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? 
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? d
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? d
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? d
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? d
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? d
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? n
+C:\Code\Batch Script\files functions\copy\NEW\sub\test.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\sub\test.txt (Y/N)? n
+0 File(s) copied
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)?  
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)?  
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)?  
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? d
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? d
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? f
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? s
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? n
+C:\Code\Batch Script\files functions\copy\NEW\sub\test.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\sub\test.txt (Y/N)? n
+0 File(s) copied
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Y/N)? n
+C:\Code\Batch Script\files functions\copy\NEW\sub\test.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\sub\test.txt (Y/N)? n
+0 File(s) copied
+Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Yes/No/All)? Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt (Yes/No/All)? y
+C:\Code\Batch Script\files functions\copy\NEW\new file.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\new file.txt
+Overwrite C:\Code\Batch Script\files functions\copy\CHANGE\sub\test.txt (Yes/No/All)? y
+C:\Code\Batch Script\files functions\copy\NEW\sub\test.txt -> C:\Code\Batch Script\files functions\copy\CHANGE\sub\test.txt
+2 File(s) copied

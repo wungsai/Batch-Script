@@ -28,6 +28,6 @@ if defined test (
 set "fileName=%~1"
 echo !fileName!
 if not exist !fileName! (
-echo create file !fileName! >!fileName!
+echo create file !fileName! >!fileName! 2>&1
 )
 :end

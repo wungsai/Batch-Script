@@ -1,0 +1,5 @@
+C:\Code\Batch Script\files functions\copy\\CHANGE
+C:\Code\Batch Script\files functions\copy\\CLOSE
+C:\Code\Batch Script\files functions\copy\\MAINTENANCE
+C:\Code\Batch Script\files functions\copy\\NEW
+C:\Code\Batch Script\files functions\copy\\OPEN

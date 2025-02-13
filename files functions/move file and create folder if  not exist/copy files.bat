@@ -2,9 +2,15 @@
 setlocal EnableDelayedExpansion
 
 set "destinationPath=C:\test\"
-copy "copy_log.txt" "CHANGE USER\copy_log.txt"
+set "fileType=.pdf"
+:::copy "copy_log.txt" "CHANGE USER\copy_log.txt"
 
 set "basePath=%~dp0"
+echo **************************************************************************************>>copy_log.txt
+echo **************************************************************************************>>copy_log.txt
+echo ***********************^>^>^>^>^>^>BELOW^<^<^<^<^<^<^<^<********************************************>>copy_log.txt
+
+echo ---------------Start-%date% %time%----copy----------------START--------->>copy_log.txt
 for /d %%a in (*) do (
     @REM echo action==="%%a"
     if "%%a" NEQ "NEW" (
@@ -20,6 +26,9 @@ for /d %%a in (*) do (
     @REM call :listFile "%%d" 
 )
 
+echo ---------------END---%date% %time%--  copy----------------END--------->>copy_log.txt
+exit /b
+
 goto :end
 
 ::function to copy files to destination path
@@ -30,24 +39,65 @@ set "dir=%~1"
         @REM echo ==dir--!dir! ---file-- %%f
         set "sourceFile=!basePath!%%f"
         set "destinationFile=!destinationPath!%%f"
-        set "pNewName=!destinationFile:~0,-4!"
-        set "newName=!pNewName!_new.pdf"
+::---------------Start Copy files-----------------------------
         if exist "!sourceFile!" (
             if exist "!destinationFile!" (
+                call :renameFile "!destinationFile!" newName
                 echo new name---:--"!newName!"
-                echo ---------- destinationFile is exist --------------------
-                xcopy "!basePath!%%f" "!newName!"*
+                @REM echo ---------- destinationFile is exist --------------------
+                xcopy "!basePath!%%f" "!newName!"*>>copy_log.txt
             ) else (
-echo -----file exist---
-        xcopy "!basePath!%%f" "!destinationPath!%%f"*
+@REM echo -----file exist---
+        xcopy "!basePath!%%f" "!destinationFile!"*>>copy_log.txt
             )
         )
     )
-@REM set "dir=CHANGE USER"
-@REM echo !dir!
-@REM for /r "%dir%" %%f in (*) do (
-@REM     set "file=%%f"
-@REM     echo !file!
-@REM     )
+    exit /b
+
+
+goto :end
+
+:renameFile 
+set "name=%~1"
+set "extractEXTName=!name:~0,-4!"
+set "existFileIndex=!extractEXTName:~-5!"
+
+if "!existFileIndex!"=="_new_1" (
+call :addFileIndex "!name!" new4
+set "newName=!new4!"
+) else (
+set "existFileN=!extractEXTName:~0,-1!"
+set "existF=!existFileN:~-5!"
+if "!existF!"=="_new_" (
+set "newName=!extractEXTName!%fileType%"
+)else (
+set "newName=!extractEXTName!_new_1%fileType%"
+)
+)
+:: echo ********newName*******==!newName!
+if exist "!newName!" (
+call :addFileIndex "!newName!" new3
+set "newName=!new3!"
+:: recheck new file name is exist or not
+call :renameFile "!new3!" new2
+set "%~2=!new2!"
+) else (
+set "%~2=!newName!"
+)
+
+exit /b
+
+:addFileIndex
+set "existName=%~1"
+set "len=0"
+set "extractEXTnewName=!existName:~0,-4!"
+
+::extract the number of file in name of last char
+set "fileIndex=!extractEXTnewName:~-1!"
+set /a newFileIndex=fileIndex+1
+set "newName2=!extractEXTnewName:~0,-1!%newFileIndex%.pdf"
+set "%~2=!newName2!"
+exit /b
+
 
 :end

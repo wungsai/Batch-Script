@@ -1,17 +1,9 @@
-CHANGE\007\CHANGE 251 2025-01-15 [15-01-2025].pdf
+**************************************************************************************
+**************************************************************************************
+***********************>>>>>>BELOW<<<<<<<<********************************************
+---------------Start-13-02-2025 16:52:47.81----copy----------------START---------
+C:\Code\Batch Script\files functions\move file and create folder if  not exist\CHANGE USER\002 STB VIENTIANE BRANCH\CHANGE 002 2025-01-15 [15-01-2025].pdf
 1 File(s) copied
-0 File(s) copied
-0 File(s) copied
-0 File(s) copied
-0 File(s) copied
-ERROR: Source directory not found: \CHANGEs 
-0 File(s) copied
-0 File(s) copied
-0 File(s) copied
-0 File(s) copied
-CHANGE\007\CHANGE 251 2025-01-15 [15-01-2025].pdf
+C:\Code\Batch Script\files functions\move file and create folder if  not exist\CHANGE USER\007 ATTAPEU BRANCH\251 Saravanh Service Unit\CHANGE 251 2025-01-15 [15-01-2025].pdf
 1 File(s) copied
-CHANGE\007\CHANGE 251 2025-01-15 [15-01-2025].pdf
-1 File(s) copied
-CHANGE\007\CHANGE 251 2025-01-15 [15-01-2025].pdf
-1 File(s) copied
+---------------END---13-02-2025 16:52:48.02--  copy----------------END---------
